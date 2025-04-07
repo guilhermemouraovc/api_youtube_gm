@@ -1,7 +1,10 @@
 from googleapiclient.discovery import build
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-API_KEY = "AIzaSyBtZ_qqK6qaEGJXtVhdS_-z0SV9pl8_jEU"
+load_dotenv()
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 PLAYLIST_ID = "PLfoNZDHitwjUv0pjTwlV1vzaE0r7UDVDR"  
 
 def buscar_videos_da_playlist(api_key):

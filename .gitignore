@@ -1,1 +1,9 @@
-__pycache__/.env *.pyc *.csv
+__pycache__/
+*.py[cod]
+env/
+venv/
+.env
+*.pyc 
+*.csv
+*.log
+.vscode/
