@@ -3,6 +3,7 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 
+
 load_dotenv()
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 PLAYLIST_ID = "PLfoNZDHitwjUv0pjTwlV1vzaE0r7UDVDR"  

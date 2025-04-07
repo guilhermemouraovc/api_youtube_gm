@@ -6,4 +6,4 @@ venv/
 *.pyc 
 *.csv
 *.log
-.vscode/
+###.vscode/
