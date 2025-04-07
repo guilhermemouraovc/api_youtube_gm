@@ -34,29 +34,24 @@ Este projeto consome dados da YouTube Data API v3 para exibir estatísticas dos 
 git clone https://github.com/guilhermemouraovc/api_youtube_gm.git
 cd seu-repo
 ```
-### 2. Crie e ative um ambiente virtual (opcional)
-```bash
-python -m venv env
-env\Scripts\activate  #windows
-source env/bin/activate #Mac/Linux
-```
-### 3. Instale as dependências
+
+### 2. Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Configure sua chave de API 
+### 3. Configure sua chave de API 
 Crie um arquivo chamado .env na raiz do projeto e adicione sua chave da API do YouTube
 ```env
 YOUTUBE_API_KEY=sua_chave_aqui 
 ```
-### 5. Coleta dos dados
+### 4. Coleta dos dados
 Execute o script para buscar os dados da playlist:
 ```bash
 python src/youtube_api.py
 ```
 Esse comando irá gerar o arquivo dados_f1.csv
 
-### 6. Inicie o dashboard
+### 5. Inicie o dashboard
 ```bash
 python src/dashboard.py
 ```
