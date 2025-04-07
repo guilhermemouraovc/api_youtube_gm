@@ -2,7 +2,7 @@
 
 Este projeto consome dados da YouTube Data API v3 para exibir estatísticas dos vídeos de highlights da temporada 2024 da Fórmula 1. Os dados são exibidos em um dashboard interativo e estilizado com as cores da F1.
 
-![Dashboard](https://github.com/guilhermemouraovc/api_youtube_gm/issues/1#issue-2977530939) 
+![Dashboard](https://imgur.com/a/frR3KJY) 
 
 
 ---
