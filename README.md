@@ -58,7 +58,7 @@ Esse comando irá gerar o arquivo dados_f1.csv
 
 ### 6. Inicie o dashboard
 ```bash
-python src/dashboaard.py
+python src/dashboard.py
 ```
 Abra o navegador e acesse:
 http://127.0.0.1:8050/
